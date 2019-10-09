@@ -11,7 +11,7 @@ This repository includes the following files:
 
 ## How the script `run_analysis.R` works
 
-This script uses library `dplyr` and `data.table`. 
+This script uses libraries `dplyr` and `data.table`. 
 
 After downloading and unzipping the data for the project, the 5 steps in the project instruction are followed. 
 
