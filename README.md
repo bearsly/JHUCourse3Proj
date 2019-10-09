@@ -19,14 +19,14 @@ After downloading and unzipping the data for the project, the 5 steps in the pro
 
    First use the `fread()` function to assign data in the following files to variables:
 
-   `features.txt`
-   `activity_labels.txt`
-   `train/subject_train.txt`
-   `train/X_train.txt`
-   `train/y_train.txt`
-   `test/subject_test.txt`
-   `test/X_test.txt`
-   `test/y_test.txt`
+   * `features.txt`
+   * `activity_labels.txt`
+   * `train/subject_train.txt`
+   * `train/X_train.txt`
+   * `train/y_train.txt`
+   * `test/subject_test.txt`
+   * `test/X_test.txt`
+   * `test/y_test.txt`
 
    The data are then merged with functions `rbind()` and `cbind()`. The parameter `check.names = TRUE` is used in `cbind()` for avoiding duplicate column names (which exist in our downloaded data).
 
